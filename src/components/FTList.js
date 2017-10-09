@@ -2,17 +2,17 @@ import React, { Component } from 'react';
 import {
   Platform,
   StyleSheet,
-  View
+  Text,
+  View,
+  Footer
 } from 'react-native';
-import FTList from './src/components/FTList';
-import Splash from './src/components/Splash';
 
-export default class App extends Component<{}> {
-  render() {
+export default class FTList extends Component<{}> {
+  render(){
     return (
       <View style={styles.container}>
-        <Splash />
-        <FTList />
+        <Text>List</Text>
+        <Text style={styles.footer}>Race Carpenter 2017</Text>
       </View>
     );
   }
@@ -24,5 +24,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#587576',
+  },
+  footer: {
+   bottom: 0
   }
 });
