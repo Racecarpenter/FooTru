@@ -7,6 +7,7 @@ import {
 import firebase from 'firebase';
 import FTList from './src/components/FTList';
 import Splash from './src/components/Splash';
+import LoginForm from './src/components/LoginForm';
 
 
 
@@ -25,7 +26,7 @@ export default class App extends Component<{}> {
     return (
       <View style={styles.container}>
         <Splash />
-        <FTList />
+        <LoginForm />
       </View>
     );
   }
