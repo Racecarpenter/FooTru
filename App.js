@@ -6,7 +6,7 @@ import {
 } from 'react-native';
 import firebase from 'firebase';
 
-import router from './src/router/router.js';
+import router from './src/router/router';
 
 
 export default class App extends Component<{}> {
