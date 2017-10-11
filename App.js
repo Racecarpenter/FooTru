@@ -5,10 +5,8 @@ import {
   View
 } from 'react-native';
 import firebase from 'firebase';
-import FTList from './src/components/FTList';
-import Splash from './src/components/Splash';
-import LoginForm from './src/components/LoginForm';
 
+import router from './src/router/router.js';
 
 
 export default class App extends Component<{}> {
@@ -25,8 +23,7 @@ export default class App extends Component<{}> {
   render() {
     return (
       <View style={styles.container}>
-        <Splash />
-        <LoginForm />
+        <router />
       </View>
     );
   }
