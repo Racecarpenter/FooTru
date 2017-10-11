@@ -20,8 +20,8 @@ export default class Splash extends Component<{}> {
 
 const styles = StyleSheet.create({
   splashContain: {
-    marginTop: 180,
-    marginBottom: -20
+    marginTop: 150,
+    marginBottom: -50
   },
   welcome: {
     fontSize: 20,
